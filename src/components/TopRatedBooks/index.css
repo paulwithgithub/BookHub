@@ -1,0 +1,74 @@
+.all-top-rated-books {
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27vh;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  height: 100px;
+}
+@media screen and (min-width: 768px) {
+  .failure-img {
+    height: 140px;
+  }
+}
+.failure-heading-text {
+  color: #475569;
+  font-size: 11px;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .failure-heading-text {
+    color: #475569;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+}
+.try-again-btn {
+  color: white;
+  background-color: #0284c7;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768ppx) {
+  .try-again-btn {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+  }
+}
+
+.to-mobile-slider-cont {
+}
+@media screen and (min-width: 768px) {
+  .to-mobile-slider-cont {
+    display: none;
+  }
+}
+
+.to-slider-cont {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .to-slider-cont {
+    display: block;
+  }
+}

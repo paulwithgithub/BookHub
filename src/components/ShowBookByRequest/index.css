@@ -1,0 +1,71 @@
+.nav-item {
+  list-style: none;
+}
+
+.link-item {
+  display: flex;
+  margin-bottom: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.cover-pic {
+  height: 150px;
+  width: 120px;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
+.book-details-card {
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 215px;
+  padding-top: 0px;
+}
+.book-title {
+  font-family: 'Robotic';
+  font-size: 16px;
+  margin-top: 0px;
+  color: #334155;
+  font-weight: 700;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .book-title {
+    width: 100%;
+  }
+}
+.book-author {
+  font-size: 14px;
+  color: #475569;
+  line-height: 16px;
+  font-weight: 500;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 18px;
+  width: 105px;
+}
+.book-avg {
+  font-size: 12px;
+  color: #475569;
+  line-height: 16px;
+  font-weight: 500;
+}
+.book-rating {
+  font-size: 12px;
+  color: #475569;
+  line-height: 16px;
+  font-weight: 500;
+}
+.book-read-status {
+  font-size: 12px;
+  color: #475569;
+  line-height: 16px;
+  font-weight: 500;
+}
+.status-color {
+  color: #0284c7;
+}

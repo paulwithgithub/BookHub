@@ -1,0 +1,174 @@
+.home-page-container {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .home-page-container {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+}
+.home-heading {
+  color: #1e293b;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 35px;
+  }
+}
+.home-content {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 70%;
+  }
+}
+
+.home-descp {
+  color: #475569;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .home-descp {
+    font-size: 20px;
+  }
+}
+.top-rated-books-container {
+  background-color: white;
+  padding: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .top-rated-books-container {
+    padding: 25px;
+  }
+}
+.heading-button-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .heading-button-cont {
+  }
+}
+.home-rating-heading {
+  font-size: 14px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .home-rating-heading {
+    font-size: 20px;
+  }
+}
+.mobile-rating-find-button {
+  background-color: #0284c7;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: 'Roboto';
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .mobile-rating-find-button {
+    display: none;
+  }
+}
+
+.rating-find-button {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .rating-find-button {
+    display: block;
+    background-color: #0284c7;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Roboto';
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+.find-btn-link {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .find-btn-link {
+    display: block;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.mobile-find-btn-link {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .mobile-find-btn-link {
+    display: none;
+  }
+}
+
+.books-slider-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .books-slider-container {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+.mobile-books-slider-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-books-slider-container {
+    display: none;
+  }
+}
+
+.contact-information {
+  align-self: center;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-images-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160%;
+}
+
+.contact-us {
+  color: #3d3c3c;
+  font-size: 12px;
+  font-family: 'Robotic';
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  background-color: #e5e5e5;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 40px;
+  }
+}
+.book-details-container {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .book-details-container {
+    padding: 40px;
+    width: 65%;
+    border-radius: 5px;
+    background-color: white;
+  }
+}
+.book-details-contact-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.book-details-social-images-cont {
+  display: flex;
+  justify-content: space-between;
+
+  width: 120px;
+}
+.book-details-contact-us {
+  color: #3d3c3c;
+  font-size: 14px;
+  font-family: 'Robotic';
+  font-weight: bold;
+}
